@@ -39,7 +39,7 @@ public class APISteps {
 
     @And("set header value{string} to {string}")
     public void setHeaderValueTo(String key, String value) {
-        RestAssuredUtils.setHeaderValue(key,value);
+        RestAssuredUtils.setHeader(key,value);
     }
 
     @And("set body for the create booking request")

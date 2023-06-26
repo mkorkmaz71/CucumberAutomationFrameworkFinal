@@ -27,27 +27,22 @@ public class RestAssuredUtils {
         reqSpec = reqSpec.header(key, value);
     }
 
-    public static void setHeaderValue(String key, String value) {
-        RestAssuredUtils.setHeader(key, value);
-    }
-
     public static void get() {
-        response = reqSpec.get(endpoint);
+        response = reqSpec.log().all().get(endpoint);
     }
 
     public static void post() {
-        response = reqSpec.post(endpoint);
+        response = reqSpec.log().all().post(endpoint);
     }
 
     public static void put() {
-        response = reqSpec.put(endpoint);
+        response = reqSpec.log().all().put(endpoint);
     }
 
     public static String getResponseField(String path){
         JsonPath jsonPath=new JsonPath(response.asString());
         return jsonPath.getString(path);
     }
-
     public static int getStatusCode(){
         return response.getStatusCode();
     }

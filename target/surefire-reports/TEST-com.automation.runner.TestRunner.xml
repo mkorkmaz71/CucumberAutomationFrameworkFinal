@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="com.automation.runner.TestRunner" time="40.735" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="com.automation.runner.TestRunner" time="40.189" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2023.1.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,12 +65,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Validate the functionality get booking api" name="Verify user can retrieve list of booking" time="1.804"/>
-  <testcase classname="Verify Cart Functionality" name="Verify user can add multiple item the cart" time="4.235"/>
-  <testcase classname="Validate login functionality" name="Verify user can logout" time="3.371"/>
-  <testcase classname="Validate login functionality" name="Verify user can not login" time="1.982"/>
-  <testcase classname="Navigation Functionality Tests" name="Verify user can navigate back to homepage from checkout page" time="2.277"/>
-  <testcase classname="Order Confirmation Tests" name="Verify user can place order" time="2.718"/>
-  <testcase classname="Delete Item From The Cart Tests" name="Verify user can empty the cart" time="22.25"/>
-  <testcase classname="Sorting Functionality Tests" name="Verify user can sort items by price -high to low" time="2.098"/>
+  <testcase classname="Validate the functionality get booking api" name="Verify user can retrieve list of booking" time="2.061"/>
+  <testcase classname="Validate the functionality get booking api" name="Verify user can create a booking" time="0.319"/>
+  <testcase classname="Validate the functionality get booking api" name="Verify user can create a token" time="0.852"/>
+  <testcase classname="Verify Cart Functionality" name="Verify user can add multiple item the cart" time="3.48"/>
+  <testcase classname="Validate login functionality" name="Verify user can logout" time="2.184"/>
+  <testcase classname="Validate login functionality" name="Verify user can not login" time="1.871"/>
+  <testcase classname="Navigation Functionality Tests" name="Verify user can navigate back to homepage from checkout page" time="2.31"/>
+  <testcase classname="Order Confirmation Tests" name="Verify user can place order" time="2.539"/>
+  <testcase classname="Delete Item From The Cart Tests" name="Verify user can empty the cart" time="22.504"/>
+  <testcase classname="Sorting Functionality Tests" name="Verify user can sort items by price -high to low" time="2.069"/>
 </testsuite>

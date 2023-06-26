@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Validate the functionality get booking api
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.493 s - in Validate the functionality get booking api
